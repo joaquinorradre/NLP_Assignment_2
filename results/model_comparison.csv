@@ -1,3 +1,5 @@
 Architecture,Evasion F1 (Macro),Train Time (s),Inference Speed (samples/s),GPU Memory (MB),Parameters
-BiGRU (attention),0.2048,4.57,7829.4,489.3,"4,340,746"
-BERT (bert-base-uncased),0.1513,22.36,1221.1,2609.5,"109,489,161"
+Baseline (CountVec + LogReg),0.2823,90.49,3993.3,0.0,"1,422,540"
+UniGRU (attention),0.228,23.15,17002.0,1580.8,"3,253,770"
+UniLSTM (attention),0.2376,22.58,14727.8,1573.7,"3,484,170"
+BERT (bert-base-uncased),0.3144,151.09,1185.4,2654.0,"109,489,161"
