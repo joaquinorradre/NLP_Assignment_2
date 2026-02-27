@@ -1,5 +1,5 @@
 Experiment,Model,Frozen Base,Evasion F1 (Macro),Train Time (s),Inference Speed (samples/s),GPU Memory (MB),Trainable Params
-BERT (Unfrozen),bert-base-uncased,False,0.3234,148.97,1200.7,2539.3,"109,489,161"
-BERT (Frozen),bert-base-uncased,True,0.0522,50.94,1195.0,502.9,"6,921"
-RoBERTa (Unfrozen),roberta-base,False,0.3771,154.52,1201.9,2715.6,"124,652,553"
-DistilBERT (Unfrozen),distilbert-base-uncased,False,0.3343,78.99,2295.4,1438.6,"66,960,393"
+BERT (Unfrozen),bert-base-uncased,False,0.3234,149.48,1193.2,2537.3,"109,489,161"
+BERT (Frozen),bert-base-uncased,True,0.0522,50.99,1190.9,502.3,"6,921"
+RoBERTa (Unfrozen),roberta-base,False,0.3725,155.2,1193.4,2715.6,"124,652,553"
+DistilBERT (Unfrozen),distilbert-base-uncased,False,0.3349,78.86,2289.6,1438.6,"66,960,393"

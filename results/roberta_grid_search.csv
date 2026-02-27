@@ -1,0 +1,7 @@
+Experiment,Model,Frozen Base,Evasion F1 (Macro),Train Time (s),Inference Speed (samples/s),GPU Memory (MB),Trainable Params,Learning Rate,Batch Size
+RoBERTa_LR-1e-05_BS-16,roberta-base,False,0.3479,152.45,1197.5,2715.6,124652553,1e-05,16
+RoBERTa_LR-1e-05_BS-32,roberta-base,False,0.3336,128.94,1191.8,4002.4,124652553,1e-05,32
+RoBERTa_LR-2e-05_BS-16,roberta-base,False,0.3725,155.01,1194.4,2715.6,124652553,2e-05,16
+RoBERTa_LR-2e-05_BS-32,roberta-base,False,0.3447,129.11,1184.9,4002.4,124652553,2e-05,32
+RoBERTa_LR-5e-05_BS-16,roberta-base,False,0.3572,156.12,1192.6,2715.6,124652553,5e-05,16
+RoBERTa_LR-5e-05_BS-32,roberta-base,False,0.3612,129.46,1196.4,4002.4,124652553,5e-05,32
